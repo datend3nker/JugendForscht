@@ -7,6 +7,7 @@ using Microsoft.ML.AutoML;
 using System.Diagnostics;
 using Microsoft.ML.Trainers.LightGbm;
 using System.Text.Json;
+using System.IO;
 
 namespace Csharp_machieneLearning
 {
@@ -136,6 +137,7 @@ namespace Csharp_machieneLearning
         public static void Sweeper(MLContext mlContext, IDataView file, IEstimator<ITransformer> pipeline, string modelname, IDictionary<string, IEstimator<ITransformer>> estimator, Stopwatch stw)
         {
             //Diese Optionen sind nur für den LightGBM
+            string saveDirechtory = $"C:\\Users\\ludwi\\source\\repos\\JugendForscht\\LoggingData.json";
             IDictionary<string, dynamic> Result = new Dictionary<string, dynamic>();
             int trainingStage = 0;
             double[] LearningRate = new double[] { 1, 0.5, 0.25, 0.1, 0.001, 0.0001, 0.00001, 0.000001 };
@@ -154,7 +156,6 @@ namespace Csharp_machieneLearning
                     {
                         foreach (bool unbalancedsets in UnbalancedSets)
                         {
-                            trainingStage++;
                             var options = new LightGbmBinaryTrainer.Options
                             {
                                 LearningRate = learningrate,
@@ -168,6 +169,7 @@ namespace Csharp_machieneLearning
                             var model = Model.Fit(data.TrainSet);
                             stw.Stop();
                             Console.WriteLine($"Finished training {modelname} with parameters:  {stw.ElapsedMilliseconds / 1000}s");
+                            Console.WriteLine($"Amounts of runs:        {trainingStage}");
                             Console.WriteLine($"  LearningRate:             {learningrate}");
                             Console.WriteLine($"  NumberOfIterations:       {numberofiterations}");
                             Console.WriteLine($"  Sigmoid:                  {sigmoid}");
@@ -196,7 +198,9 @@ namespace Csharp_machieneLearning
                             };
                             #endregion
                             string json = JsonSerializer.Serialize(output);
+                            File.AppendAllText(path: saveDirechtory, contents: json);
                             Console.WriteLine(json);
+                            trainingStage++;
                         }
                     }
                 }

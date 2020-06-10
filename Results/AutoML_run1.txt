@@ -1,0 +1,30 @@
+=============== Loading Dataset  ===============
+=============== Finished Loading Dataset  ===============
+Current result - AveragedPerceptronBinary, 0,7722189084402028, 0,8285213185769476
+Current result - SdcaLogisticRegressionBinary, 0,7587980912615568, 0,8121476489152076
+Current result - LightGbmBinary, 0,7951834178347749, 0,8729855688330218
+Current result - SymbolicSgdLogisticRegressionBinary, 0,7696590118302018, 0,8269676490687129
+Current result - LinearSvmBinary, 0,758027636942042, 0,8045505627187721
+Current result - FastTreeBinary, 0,7868326871458395, 0,8616631557084801
+Current result - LbfgsLogisticRegressionBinary, 0,7720946416144746, 0,8286609224455377
+Current result - FastForestBinary, 0,758027636942042, 0,8177641903507341
+Current result - SgdCalibratedBinary, 0,7696341584650561, 0,8278930674816939
+Current result - AveragedPerceptronBinary, 0,6273237896411175, 0,7757794784915627
+Current result - LightGbmBinary, 0,781340093448653, 0,8586065883403496
+Current result - FastTreeBinary, 0,7578039566557312, 0,8117699811958766
+Current result - AveragedPerceptronBinary, 0,6273237896411175, 0,7650225933372744
+Current result - LightGbmBinary, 0,7847698578387514, 0,8621541187236468
+Current result - FastTreeBinary, 0,7634456705437916, 0,8257971203612514
+Current result - AveragedPerceptronBinary, 0,6273237896411175, 0,7772079937003155
+Current result - LightGbmBinary, 0,760786360473208, 0,8168978436997059
+Current result - FastTreeBinary, 0,8010985187394373, 0,8735522844209959
+Current result - AveragedPerceptronBinary, 0,6273237896411175, 0,7870290493011821
+Current result - LightGbmBinary, 0,8130281340093448, 0,8912643622646742
+Current result - FastTreeBinary, 0,7674719156973854, 0,8327991096803804
+Current result - AveragedPerceptronBinary, 0,6273237896411175, 0,7686824823968699
+Current result - LightGbmBinary, 0,7679441296351526, 0,838090475042993
+Current result - FastTreeBinary, 0,7601898797097127, 0,8156113155212429
+
+Trainername- LightGbmBinary
+Accuracy- 0,8130281340093448
+AreaUnderRocCurve- 0,8912643622646742

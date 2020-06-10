@@ -1,0 +1,372 @@
+RandomForestClassifier:
+  Zeit: '0:34:15.518689'
+  Leistung: '0.813914609053498'
+  Parameter:
+    memory: None
+    steps: '(''vect'', CountVectorizer()) (''tfidf'', TfidfTransformer()) (''model'',
+      RandomForestClassifier(n_jobs=-1, verbose=50)) '
+    verbose: '50'
+    vect: CountVectorizer()
+    tfidf: TfidfTransformer()
+    model: RandomForestClassifier(n_jobs=-1, verbose=50)
+    vect__analyzer: word
+    vect__binary: 'False'
+    vect__decode_error: strict
+    vect__dtype: <class 'numpy.int64'>
+    vect__encoding: utf-8
+    vect__input: content
+    vect__lowercase: 'True'
+    vect__max_df: '1.0'
+    vect__max_features: None
+    vect__min_df: '1'
+    vect__ngram_range: (1, 1)
+    vect__preprocessor: None
+    vect__stop_words: None
+    vect__strip_accents: None
+    vect__token_pattern: (?u)\b\w\w+\b
+    vect__tokenizer: None
+    vect__vocabulary: None
+    tfidf__norm: l2
+    tfidf__smooth_idf: 'True'
+    tfidf__sublinear_tf: 'False'
+    tfidf__use_idf: 'True'
+    model__bootstrap: 'True'
+    model__ccp_alpha: '0.0'
+    model__class_weight: None
+    model__criterion: gini
+    model__max_depth: None
+    model__max_features: auto
+    model__max_leaf_nodes: None
+    model__max_samples: None
+    model__min_impurity_decrease: '0.0'
+    model__min_impurity_split: None
+    model__min_samples_leaf: '1'
+    model__min_samples_split: '2'
+    model__min_weight_fraction_leaf: '0.0'
+    model__n_estimators: '100'
+    model__n_jobs: '-1'
+    model__oob_score: 'False'
+    model__random_state: None
+    model__verbose: '50'
+    model__warm_start: 'False'
+svm.SVC:
+  Zeit: '0:02:54.354581'
+  Leistung: '0.6250494618550174'
+  Parameter:
+    memory: None
+    steps: '(''vect'', CountVectorizer()) (''tfidf'', TfidfTransformer()) (''model'',
+      SVC(cache_size=1000, max_iter=1000, verbose=50)) '
+    verbose: '50'
+    vect: CountVectorizer()
+    tfidf: TfidfTransformer()
+    model: SVC(cache_size=1000, max_iter=1000, verbose=50)
+    vect__analyzer: word
+    vect__binary: 'False'
+    vect__decode_error: strict
+    vect__dtype: <class 'numpy.int64'>
+    vect__encoding: utf-8
+    vect__input: content
+    vect__lowercase: 'True'
+    vect__max_df: '1.0'
+    vect__max_features: None
+    vect__min_df: '1'
+    vect__ngram_range: (1, 1)
+    vect__preprocessor: None
+    vect__stop_words: None
+    vect__strip_accents: None
+    vect__token_pattern: (?u)\b\w\w+\b
+    vect__tokenizer: None
+    vect__vocabulary: None
+    tfidf__norm: l2
+    tfidf__smooth_idf: 'True'
+    tfidf__sublinear_tf: 'False'
+    tfidf__use_idf: 'True'
+    model__C: '1.0'
+    model__break_ties: 'False'
+    model__cache_size: '1000'
+    model__class_weight: None
+    model__coef0: '0.0'
+    model__decision_function_shape: ovr
+    model__degree: '3'
+    model__gamma: scale
+    model__kernel: rbf
+    model__max_iter: '1000'
+    model__probability: 'False'
+    model__random_state: None
+    model__shrinking: 'True'
+    model__tol: '0.001'
+    model__verbose: '50'
+svm.LinearSVC:
+  Zeit: '0:00:25.492802'
+  Leistung: '0.7663916587527698'
+  Parameter:
+    memory: None
+    steps: '(''vect'', CountVectorizer()) (''tfidf'', TfidfTransformer()) (''model'',
+      LinearSVC(verbose=50)) '
+    verbose: '50'
+    vect: CountVectorizer()
+    tfidf: TfidfTransformer()
+    model: LinearSVC(verbose=50)
+    vect__analyzer: word
+    vect__binary: 'False'
+    vect__decode_error: strict
+    vect__dtype: <class 'numpy.int64'>
+    vect__encoding: utf-8
+    vect__input: content
+    vect__lowercase: 'True'
+    vect__max_df: '1.0'
+    vect__max_features: None
+    vect__min_df: '1'
+    vect__ngram_range: (1, 1)
+    vect__preprocessor: None
+    vect__stop_words: None
+    vect__strip_accents: None
+    vect__token_pattern: (?u)\b\w\w+\b
+    vect__tokenizer: None
+    vect__vocabulary: None
+    tfidf__norm: l2
+    tfidf__smooth_idf: 'True'
+    tfidf__sublinear_tf: 'False'
+    tfidf__use_idf: 'True'
+    model__C: '1.0'
+    model__class_weight: None
+    model__dual: 'True'
+    model__fit_intercept: 'True'
+    model__intercept_scaling: '1'
+    model__loss: squared_hinge
+    model__max_iter: '1000'
+    model__multi_class: ovr
+    model__penalty: l2
+    model__random_state: None
+    model__tol: '0.0001'
+    model__verbose: '50'
+KNeighborsClassifier:
+  Zeit: '0:00:17.448326'
+  Leistung: '0.7317782526115859'
+  Parameter:
+    memory: None
+    steps: '(''vect'', CountVectorizer()) (''tfidf'', TfidfTransformer()) (''model'',
+      KNeighborsClassifier(n_jobs=-1)) '
+    verbose: '50'
+    vect: CountVectorizer()
+    tfidf: TfidfTransformer()
+    model: KNeighborsClassifier(n_jobs=-1)
+    vect__analyzer: word
+    vect__binary: 'False'
+    vect__decode_error: strict
+    vect__dtype: <class 'numpy.int64'>
+    vect__encoding: utf-8
+    vect__input: content
+    vect__lowercase: 'True'
+    vect__max_df: '1.0'
+    vect__max_features: None
+    vect__min_df: '1'
+    vect__ngram_range: (1, 1)
+    vect__preprocessor: None
+    vect__stop_words: None
+    vect__strip_accents: None
+    vect__token_pattern: (?u)\b\w\w+\b
+    vect__tokenizer: None
+    vect__vocabulary: None
+    tfidf__norm: l2
+    tfidf__smooth_idf: 'True'
+    tfidf__sublinear_tf: 'False'
+    tfidf__use_idf: 'True'
+    model__algorithm: auto
+    model__leaf_size: '30'
+    model__metric: minkowski
+    model__metric_params: None
+    model__n_jobs: '-1'
+    model__n_neighbors: '5'
+    model__p: '2'
+    model__weights: uniform
+MultinomialNB:
+  Zeit: '0:00:18.989204'
+  Leistung: '0.7399394586894587'
+  Parameter:
+    memory: None
+    steps: '(''vect'', CountVectorizer()) (''tfidf'', TfidfTransformer()) (''model'',
+      MultinomialNB()) '
+    verbose: '50'
+    vect: CountVectorizer()
+    tfidf: TfidfTransformer()
+    model: MultinomialNB()
+    vect__analyzer: word
+    vect__binary: 'False'
+    vect__decode_error: strict
+    vect__dtype: <class 'numpy.int64'>
+    vect__encoding: utf-8
+    vect__input: content
+    vect__lowercase: 'True'
+    vect__max_df: '1.0'
+    vect__max_features: None
+    vect__min_df: '1'
+    vect__ngram_range: (1, 1)
+    vect__preprocessor: None
+    vect__stop_words: None
+    vect__strip_accents: None
+    vect__token_pattern: (?u)\b\w\w+\b
+    vect__tokenizer: None
+    vect__vocabulary: None
+    tfidf__norm: l2
+    tfidf__smooth_idf: 'True'
+    tfidf__sublinear_tf: 'False'
+    tfidf__use_idf: 'True'
+    model__alpha: '1.0'
+    model__class_prior: None
+    model__fit_prior: 'True'
+LogisticRegression:
+  Zeit: '0:00:26.348542'
+  Leistung: '0.757181861348528'
+  Parameter:
+    memory: None
+    steps: '(''vect'', CountVectorizer()) (''tfidf'', TfidfTransformer()) (''model'',
+      LogisticRegression(n_jobs=-1, solver=''saga'', verbose=50)) '
+    verbose: '50'
+    vect: CountVectorizer()
+    tfidf: TfidfTransformer()
+    model: LogisticRegression(n_jobs=-1, solver='saga', verbose=50)
+    vect__analyzer: word
+    vect__binary: 'False'
+    vect__decode_error: strict
+    vect__dtype: <class 'numpy.int64'>
+    vect__encoding: utf-8
+    vect__input: content
+    vect__lowercase: 'True'
+    vect__max_df: '1.0'
+    vect__max_features: None
+    vect__min_df: '1'
+    vect__ngram_range: (1, 1)
+    vect__preprocessor: None
+    vect__stop_words: None
+    vect__strip_accents: None
+    vect__token_pattern: (?u)\b\w\w+\b
+    vect__tokenizer: None
+    vect__vocabulary: None
+    tfidf__norm: l2
+    tfidf__smooth_idf: 'True'
+    tfidf__sublinear_tf: 'False'
+    tfidf__use_idf: 'True'
+    model__C: '1.0'
+    model__class_weight: None
+    model__dual: 'False'
+    model__fit_intercept: 'True'
+    model__intercept_scaling: '1'
+    model__l1_ratio: None
+    model__max_iter: '100'
+    model__multi_class: auto
+    model__n_jobs: '-1'
+    model__penalty: l2
+    model__random_state: None
+    model__solver: saga
+    model__tol: '0.0001'
+    model__verbose: '50'
+    model__warm_start: 'False'
+GradientBoostingRegressor:
+  Zeit: '0:06:30.239121'
+  Leistung: '0.16684323711151794'
+  Parameter:
+    memory: None
+    steps: '(''vect'', CountVectorizer()) (''tfidf'', TfidfTransformer()) (''model'',
+      GradientBoostingRegressor(verbose=50)) '
+    verbose: '50'
+    vect: CountVectorizer()
+    tfidf: TfidfTransformer()
+    model: GradientBoostingRegressor(verbose=50)
+    vect__analyzer: word
+    vect__binary: 'False'
+    vect__decode_error: strict
+    vect__dtype: <class 'numpy.int64'>
+    vect__encoding: utf-8
+    vect__input: content
+    vect__lowercase: 'True'
+    vect__max_df: '1.0'
+    vect__max_features: None
+    vect__min_df: '1'
+    vect__ngram_range: (1, 1)
+    vect__preprocessor: None
+    vect__stop_words: None
+    vect__strip_accents: None
+    vect__token_pattern: (?u)\b\w\w+\b
+    vect__tokenizer: None
+    vect__vocabulary: None
+    tfidf__norm: l2
+    tfidf__smooth_idf: 'True'
+    tfidf__sublinear_tf: 'False'
+    tfidf__use_idf: 'True'
+    model__alpha: '0.9'
+    model__ccp_alpha: '0.0'
+    model__criterion: friedman_mse
+    model__init: None
+    model__learning_rate: '0.1'
+    model__loss: ls
+    model__max_depth: '3'
+    model__max_features: None
+    model__max_leaf_nodes: None
+    model__min_impurity_decrease: '0.0'
+    model__min_impurity_split: None
+    model__min_samples_leaf: '1'
+    model__min_samples_split: '2'
+    model__min_weight_fraction_leaf: '0.0'
+    model__n_estimators: '100'
+    model__n_iter_no_change: None
+    model__presort: deprecated
+    model__random_state: None
+    model__subsample: '1.0'
+    model__tol: '0.0001'
+    model__validation_fraction: '0.1'
+    model__verbose: '50'
+    model__warm_start: 'False'
+SGDClassifier:
+  Zeit: '0:00:18.844648'
+  Leistung: '0.728681940487496'
+  Parameter:
+    memory: None
+    steps: '(''vect'', CountVectorizer()) (''tfidf'', TfidfTransformer()) (''model'',
+      SGDClassifier(n_jobs=-1, verbose=50)) '
+    verbose: '50'
+    vect: CountVectorizer()
+    tfidf: TfidfTransformer()
+    model: SGDClassifier(n_jobs=-1, verbose=50)
+    vect__analyzer: word
+    vect__binary: 'False'
+    vect__decode_error: strict
+    vect__dtype: <class 'numpy.int64'>
+    vect__encoding: utf-8
+    vect__input: content
+    vect__lowercase: 'True'
+    vect__max_df: '1.0'
+    vect__max_features: None
+    vect__min_df: '1'
+    vect__ngram_range: (1, 1)
+    vect__preprocessor: None
+    vect__stop_words: None
+    vect__strip_accents: None
+    vect__token_pattern: (?u)\b\w\w+\b
+    vect__tokenizer: None
+    vect__vocabulary: None
+    tfidf__norm: l2
+    tfidf__smooth_idf: 'True'
+    tfidf__sublinear_tf: 'False'
+    tfidf__use_idf: 'True'
+    model__alpha: '0.0001'
+    model__average: 'False'
+    model__class_weight: None
+    model__early_stopping: 'False'
+    model__epsilon: '0.1'
+    model__eta0: '0.0'
+    model__fit_intercept: 'True'
+    model__l1_ratio: '0.15'
+    model__learning_rate: optimal
+    model__loss: hinge
+    model__max_iter: '1000'
+    model__n_iter_no_change: '5'
+    model__n_jobs: '-1'
+    model__penalty: l2
+    model__power_t: '0.5'
+    model__random_state: None
+    model__shuffle: 'True'
+    model__tol: '0.001'
+    model__validation_fraction: '0.1'
+    model__verbose: '50'
+    model__warm_start: 'False'

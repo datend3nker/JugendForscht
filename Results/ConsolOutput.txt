@@ -1,0 +1,172 @@
+=============== Loading Dataset  ===============
+=============== Finished Loading Dataset  ===============
+==========================Start training of AveragedPerceptronTrainer===============================
+=============== Evaluating Model accuracy with Test data===============
+
+Model quality metrics evaluation
+--------------------------------
+  Accuracy:          75,89 %
+  Auc:               81,18 %
+  Auprc:             74,29 %
+  F1Score:           64,75 %
+  LogLoss:           0,74
+  LogLossReduction:  0,22
+  PositivePrecision: 0,71
+  PositiveRecall:    0,6
+  NegativePrecision: 0,78
+  NegativeRecall:    0,85
+
+=============== End of model evaluation ===============
+==========================Start training of SdcaLogisticRegressionBinaryTrainer===============================
+=============== Evaluating Model accuracy with Test data===============
+
+Model quality metrics evaluation
+--------------------------------
+  Accuracy:          75,20 %
+  Auc:               80,26 %
+  Auprc:             73,19 %
+  F1Score:           61,74 %
+  LogLoss:           0,74
+  LogLossReduction:  0,22
+  PositivePrecision: 0,72
+  PositiveRecall:    0,54
+  NegativePrecision: 0,76
+  NegativeRecall:    0,88
+
+=============== End of model evaluation ===============
+==========================Start training of SdcaNonCalibratedBinaryTrainer===============================
+=============== Evaluating Model accuracy with Test data===============
+
+Model quality metrics evaluation
+--------------------------------
+  Accuracy:          75,16 %
+  Auc:               80,21 %
+  Auprc:             73,14 %
+  F1Score:           61,62 %
+  LogLoss:           0,74
+  LogLossReduction:  0,22
+  PositivePrecision: 0,72
+  PositiveRecall:    0,54
+  NegativePrecision: 0,76
+  NegativeRecall:    0,88
+
+=============== End of model evaluation ===============
+==========================Start training of SymbolicSgdLogisticRegressionBinaryTrainer===============================
+=============== Evaluating Model accuracy with Test data===============
+
+Model quality metrics evaluation
+--------------------------------
+  Accuracy:          74,51 %
+  Auc:               79,40 %
+  Auprc:             71,85 %
+  F1Score:           60,38 %
+  LogLoss:           0,75
+  LogLossReduction:  0,21
+  PositivePrecision: 0,71
+  PositiveRecall:    0,52
+  NegativePrecision: 0,76
+  NegativeRecall:    0,88
+
+=============== End of model evaluation ===============
+==========================Start training of LbfgsLogisticRegressionBinaryTrainer===============================
+=============== Evaluating Model accuracy with Test data===============
+
+Model quality metrics evaluation
+--------------------------------
+  Accuracy:          75,79 %
+  Auc:               81,08 %
+  Auprc:             74,23 %
+  F1Score:           63,02 %
+  LogLoss:           0,73
+  LogLossReduction:  0,24
+  PositivePrecision: 0,73
+  PositiveRecall:    0,56
+  NegativePrecision: 0,77
+  NegativeRecall:    0,88
+
+=============== End of model evaluation ===============
+==========================Start training of LightGbmBinaryTrainer===============================
+=============== Evaluating Model accuracy with Test data===============
+
+Model quality metrics evaluation
+--------------------------------
+  Accuracy:          78,47 %
+  Auc:               86,61 %
+  Auprc:             79,28 %
+  F1Score:           67,98 %
+  LogLoss:           0,65
+  LogLossReduction:  0,32
+  PositivePrecision: 0,76
+  PositiveRecall:    0,62
+  NegativePrecision: 0,8
+  NegativeRecall:    0,88
+
+=============== End of model evaluation ===============
+==========================Start training of FastTreeBinaryTrainer===============================
+=============== Evaluating Model accuracy with Test data===============
+
+Model quality metrics evaluation
+--------------------------------
+  Accuracy:          76,77 %
+  Auc:               84,75 %
+  Auprc:             76,72 %
+  F1Score:           64,26 %
+  LogLoss:           0,69
+  LogLossReduction:  0,28
+  PositivePrecision: 0,75
+  PositiveRecall:    0,56
+  NegativePrecision: 0,78
+  NegativeRecall:    0,89
+
+=============== End of model evaluation ===============
+==========================Start training of FastForestBinaryTrainer===============================
+=============== Evaluating Model accuracy with Test data===============
+
+Model quality metrics evaluation
+--------------------------------
+  Accuracy:          68,04 %
+  Auc:               69,90 %
+  Auprc:             58,90 %
+  F1Score:           39,73 %
+  LogLoss:           0,74
+  LogLossReduction:  0,22
+  PositivePrecision: 0,66
+  PositiveRecall:    0,28
+  NegativePrecision: 0,68
+  NegativeRecall:    0,91
+
+=============== End of model evaluation ===============
+==========================Start training of FieldAwareFactorizationMachineTrainer===============================
+=============== Evaluating Model accuracy with Test data===============
+
+Model quality metrics evaluation
+--------------------------------
+  Accuracy:          80,20 %
+  Auc:               87,24 %
+  Auprc:             81,66 %
+  F1Score:           71,01 %
+  LogLoss:           0,61
+  LogLossReduction:  0,35
+  PositivePrecision: 0,78
+  PositiveRecall:    0,65
+  NegativePrecision: 0,81
+  NegativeRecall:    0,89
+
+=============== End of model evaluation ===============
+==========================Start training of LinearSvmTrainer===============================
+=============== Evaluating Model accuracy with Test data===============
+
+Model quality metrics evaluation
+--------------------------------
+  Accuracy:          69,66 %
+  Auc:               74,72 %
+  Auprc:             66,13 %
+  F1Score:           36,59 %
+  LogLoss:           0,74
+  LogLossReduction:  0,22
+  PositivePrecision: 0,82
+  PositiveRecall:    0,24
+  NegativePrecision: 0,68
+  NegativeRecall:    0,97
+
+=============== End of model evaluation ===============
